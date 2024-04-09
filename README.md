@@ -1,20 +1,10 @@
-# Senana-3-Coursera
-// Obtener la configuración regional del dispositivo
-Locale locale = Locale.getDefault();
-
-// Obtener el identificador del idioma
-String language = locale.getLanguage();
-
-// Cargar el archivo XML de strings para el idioma seleccionado
-Resources resources = getResources();
-int resId = resources.getIdentifier("strings_" + language, "xml", getPackageName());
-XmlResourceParser parser = resources.getXml(resId);
-
-// Leer las cadenas de texto del archivo XML
-while (parser.next() != XmlResourceParser.END_DOCUMENT) {
-  if (parser.getEventType() == XmlResourceParser.START_ELEMENT) {
-    String name = parser.getName();
-    String value = parser.getAttributeValue(null, "value");
-    // ...
-  }
-}
+Ver las imagenes con lo solicitado  por favor
+![alena](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/781ac328-bde9-4398-8d7f-974eb12dab9a)
+![Español](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/b716ba91-2a0c-4f84-bf71-662fe8900673)
+![Frnces](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/96ddd83a-e796-4d49-a4ef-1d8aad0530e0)
+![Ingles](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/1e69c2f3-2208-42b0-85d1-97d02c8fdbee)
+![Horizontal](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/6b79f6f4-c12c-4fa7-a55c-ecf9c6734449)
+![tabley](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/4b099e24-1f99-427e-a0cd-61402d457e5f)
+![tablitl](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/2b13e31b-fd49-48f6-8793-d6179073c53c)
+![tv](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/1251cd91-bb0f-4846-833a-271e0f47cac0)
+![vertica](https://github.com/Ribi0/Senana-3-Coursera/assets/166465128/5d171aac-b29e-4bfd-8b39-6ec7051510c8)
